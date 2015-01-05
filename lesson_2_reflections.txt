@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a repository identifies the files in the directory to Git; however, you need to indicate which files will be included in the intial commit.  The initialization creates a starting point for tracking changes (ground zero).

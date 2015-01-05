@@ -1,0 +1,31 @@
+using terminal mode to compare files with this command:
+diff -u old.filename new.filename
+
+helps isolate differences between versions of code to help reduce troubleshooting time
+
+Key points:  
+make sure you are in correct directory
+watch old/new order of files
++ are new lines
+- are deleted lines
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If you have easy access to older versions of code, you can compare versions to find the code changes that resulted in different behaviors.  Also, you can quickly isolate careless errors like typos.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+PRO:  your commits are logically divided and grouped; easier to find changes; easier to troubleshoot
+CON:  you may forget to save changes or lose some work; you need to make decisions about when to "commit" to a commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git allows you to save related files in a single commit because changes in one file may only work with related changes in other files.  Saving these related files in a single commit reduces confusion and makes sense. Google Docs autosaves individual files; actually, there are times when it would be helpful to have related files saved together; however, for most GDocs users this would create confusion.
+
+How might using version control make you more confident to make changes that could break something?
+Version control allows you to contain changes in one commit, test them, and go back to fix problems that you can easily isolate by comparing previous and subsequent versions.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Well, honestly, I'm still wanting to gain some confidence that I know where the files are all located and how to access them.  I think Git will make me more creative and willing to try bolder ideas since I can always revert to where I was before trying new directions.
+
+
+
+
+
