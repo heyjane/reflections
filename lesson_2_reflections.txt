@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 Initializing a repository identifies the files in the directory to Git; however, you need to indicate which files will be included in the intial commit.  The initialization creates a starting point for tracking changes (ground zero).
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like a work area where you can make changes without committing them.  When you are ready to actually save the changes of a logical grouping into a commit, you can then add the commit to the repository.  The working directory contains all the files in the directory--even those files that are not necessarily grouped into the commit.
+
+
+
