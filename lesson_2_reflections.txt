@@ -4,5 +4,10 @@ Initializing a repository identifies the files in the directory to Git; however,
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is like a work area where you can make changes without committing them.  When you are ready to actually save the changes of a logical grouping into a commit, you can then add the commit to the repository.  The working directory contains all the files in the directory--even those files that are not necessarily grouped into the commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Using git diff to compare the staging area to the working directory and git diff  --staged to compare the staging area to the latest commit can help identify the changes that are in the staging area waiting to be committed.  
+
+
+
 
 
