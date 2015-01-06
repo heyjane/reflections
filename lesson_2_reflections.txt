@@ -16,4 +16,7 @@ How do the diagrams help you visualize the branch structure? By clearing showing
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When you merge two branches, the merged branch becomes part of the other branch.  While the individual commits are still accessible along the two branches, if you do a git log from the merged commit, you will trace back through the commints in a time-stamped order (across both branches).  Therefore, the diagram joins the two branches into one merged commit node, and the merge commit has two parent nodes (one on each of the merged branches).
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's auto merge makes it much less tedious to merge branches; however, it may not always have enough information to determine which changes to use when conflicts arise.  The manual conflict resolution process allows you to find the conflicts and resolve them by examining the various commit code changes to determine which changes should be included in the merge. This process seems to strike a good balance between automatic convenience and manual precision.  Of course, as with any automated process, there is the possibility of introducing unwanted errors when Git merges commits.
+
 
