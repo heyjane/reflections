@@ -9,3 +9,5 @@ Branches are created locally when you want to add commits but preserve the maste
 Clones can be used to copy entire repositories either from Github to local or from local to local.
 Forks are used to clone an exiting Github repository from another user that has not given you collaborator status.  When you fork a repository, you basically clone the repository on your Github account and can then edit it without affecting the parent repository.  
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having a copy of the last known state of the remote stored locally helps you resolve conflicts when merging.
