@@ -8,6 +8,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 Using git diff to compare the staging area to the working directory and git diff  --staged to compare the staging area to the latest commit can help identify the changes that are in the staging area waiting to be committed.  
 
 
-
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful for trying out new ideas or doing a/b testing.  You can make major design direction changes to try something, but can easily revert to the master if the new design doesn't work.  Then you can create a new branch to start a new clean design without having to undo the previous changes.
 
 
