@@ -4,3 +4,8 @@ It is useful to use a remote repository when you are working on several differen
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pulling changes manually allows you to control which versions you want to share on Github.  Then you can maintain a private workspace for testing and development pull only those commits you want to share.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branches are created locally when you want to add commits but preserve the master commit branch intact.  You can use branches to try different ideas or work on bug fixes while preserving a production version intact on the master branch.  You can merge branches when appropriate.
+Clones can be used to copy entire repositories either from Github to local or from local to local.
+Forks are used to clone an exiting Github repository from another user that has not given you collaborator status.  When you fork a repository, you basically clone the repository on your Github account and can then edit it without affecting the parent repository.  
+
