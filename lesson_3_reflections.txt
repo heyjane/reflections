@@ -11,3 +11,9 @@ Forks are used to clone an exiting Github repository from another user that has 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having a copy of the last known state of the remote stored locally helps you resolve conflicts when merging.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Google Docs is a good collaboration tool, but it does not handle forks or branches like Github, so it would be much more difficult to try new ideas and preserve a master branch intact.  Github is a bit more complicated to use (at first, I suspect), but the enriched functionality seems worth the learning curve. 
+Another collaboration method is to simply pass files back and forth, but tracking versions, branches, and alternate forks is a nightmare.
+
+
