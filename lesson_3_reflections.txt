@@ -16,4 +16,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Google Docs is a good collaboration tool, but it does not handle forks or branches like Github, so it would be much more difficult to try new ideas and preserve a master branch intact.  Github is a bit more complicated to use (at first, I suspect), but the enriched functionality seems worth the learning curve. 
 Another collaboration method is to simply pass files back and forth, but tracking versions, branches, and alternate forks is a nightmare.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Creating a separate branch for changes in design or experimental or new features is a good idea so you can leave the master branch intact until the new code is verified.  The added complexity of creating a new branch is balanced by the ability to revert to the origninal master without difficulty.  A simple change like fixing a typo could probably be done directly on the master branch.
+
 
